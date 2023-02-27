@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Review</title>
+</head>
+<body>
+    <section class="flex flex-col justify-center">
+        <div class="flex justify-center mb-4">
+            <div class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mt-10">
+                <span class="relative text-white font-bold text-3xl">Our Review</span>
+            </div>
+        </div>
+        <div class="bg-white w-2/3 drop-shadow-lg h-auto rounded-lg flex mx-auto p-8 flex-col items-center text-center">
+            <div class="flex flex-col gap-7">
+                <div class="w-28 h-28 rounded-md relative mx-auto before:content-[''] before:w-full before:h-full before:bg-cyan-500 before:absolute before:-top-1 before:-right-1 before:rounded-full
+                after:w-6 after:h-6 after:bg-cyan-500 after:absolute after:rounded-full after:content-['h'] after:grid after:place-items-center after:text-white after:font-bold">
+                    <img id="person-img" src="Assets/person-1.jpg" class="w-full rounded-full object-cover h-full absolute" alt="">
+                </div>
+                <div>
+                    <h1 id="author" class="text-black font-bold">Susan Smith</h1>
+                    <h1 id="job" class="font-bold text-blue-400 mb-4">Web Developer</h1>
+                    <h1 id="info" class="text-sky-900">I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry.</h1>
+                </div>
+                <div class="">
+                    <button id="prev-btn" class="text-3xl hover:text-blue-400">&larr;</button>
+                    <button id="next-btn" class="text-3xl hover:text-blue-400">&rarr;</button>
+                </div>
+                <div>
+                    <button id="random-btn" class="text-sm   font-bold bg-blue-400 text-white p-2 rounded-lg">Surprise Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
